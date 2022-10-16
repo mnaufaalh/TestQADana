@@ -1,0 +1,376 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T16:28:45.420Z",
+        "line": 2,
+        "name": "The user create new to do",
+        "description": "",
+        "id": "create-new-to-do;the-user-create-new-to-do",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24103707900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open application",
+            "match": {
+              "location": "steps.CreateNewToDo.openApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2200576700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click icon plus",
+            "match": {
+              "location": "steps.CreateNewToDo.clickIconPlus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3910048900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Write title",
+            "match": {
+              "location": "steps.CreateNewToDo.writeTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830951500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Write description",
+            "match": {
+              "location": "steps.CreateNewToDo.writeDescription()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373365100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click icon check",
+            "match": {
+              "location": "steps.CreateNewToDo.clickIconCheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4046977300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The new to do added to list successfully",
+            "match": {
+              "location": "steps.CreateNewToDo.theNewToDoAddedToListSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create New To Do",
+    "description": "",
+    "id": "create-new-to-do",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/1.CreateNewToDo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T16:29:23.032Z",
+        "line": 2,
+        "name": "The user create new to do",
+        "description": "",
+        "id": "see-to-do;the-user-create-new-to-do",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 611705700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Click drop down",
+            "match": {
+              "location": "steps.SeeToDo.clickDropDown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2496207800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click active",
+            "match": {
+              "location": "steps.SeeToDo.clickActive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3271498200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User see active task",
+            "match": {
+              "location": "steps.SeeToDo.userSeeActiveTask()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "See To Do",
+    "description": "",
+    "id": "see-to-do",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/2.SeeToDo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T16:29:29.427Z",
+        "line": 2,
+        "name": "The user edit to do",
+        "description": "",
+        "id": "edit-to-do;the-user-edit-to-do",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 513137400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Click task",
+            "match": {
+              "location": "steps.EditToDo.clickTask()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1522631700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click icon edit",
+            "match": {
+              "location": "steps.EditToDo.clickIconEdit()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3318039800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Edit title",
+            "match": {
+              "location": "steps.EditToDo.editTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219150000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Edit description",
+            "match": {
+              "location": "steps.EditToDo.editDescription()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581777000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click icon check",
+            "match": {
+              "location": "steps.EditToDo.clickIconCheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2634480600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The to do edited successfully",
+            "match": {
+              "location": "steps.EditToDo.theToDoEditedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit To Do",
+    "description": "",
+    "id": "edit-to-do",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/3.EditToDo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T16:29:39.230Z",
+        "line": 2,
+        "name": "The user check to do",
+        "description": "",
+        "id": "check-to-do;the-user-check-to-do",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 880453700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Check task",
+            "match": {
+              "location": "steps.CheckToDo.checkTask()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3940611500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click dropdown",
+            "match": {
+              "location": "steps.CheckToDo.clickDropdown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2230092400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click completed",
+            "match": {
+              "location": "steps.CheckToDo.clickCompleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029800200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The to do checked successfully",
+            "match": {
+              "location": "steps.CheckToDo.theToDoCheckedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check To Do",
+    "description": "",
+    "id": "check-to-do",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/4.CheckToDo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T16:29:47.324Z",
+        "line": 2,
+        "name": "The user delete to do",
+        "description": "",
+        "id": "delete-to-do;the-user-delete-to-do",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 980947700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Choose task",
+            "match": {
+              "location": "steps.DeleteToDo.chooseTask()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2713071800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click delete task",
+            "match": {
+              "location": "steps.DeleteToDo.clickDeleteTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5048082300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The task deleted success",
+            "match": {
+              "location": "steps.DeleteToDo.theTaskDeletedSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete To Do",
+    "description": "",
+    "id": "delete-to-do",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/5.DeleteToDo.feature",
+    "tags": []
+  }
+]
